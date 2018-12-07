@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: Quicksand;
+}
+#nav-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 60px;
+}
+.main-container {
+  margin: 30px 0px 0px 0px;
+}
+.nav {
+  text-align: left;
+  padding-top: 15px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .2);
+}
+.nav img {
+  float: left;
+  margin-left: 20px;
+}
+.nav ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+.nav li {
+  display: inline;
+  margin-left: 25px;
+}
+.nav li a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 5px 10px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+.clickable:hover {
+  cursor: pointer;
+}
+.nav li a:hover {
+  text-decoration: underline;
+}
+.nav li a.active {
+  font-weight: 900;
+}
+#slidecontainer {
+  width: 100%;
+}
+.slider {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin: 10px 0px 30px;
+}
+.slider:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.slider:disabled {
+  cursor: not-allowed;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #0072c9;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #0072c9;
+  cursor: pointer;
+}
+.pull-left {
+  font-weight: bold;
+  float: left;
+}
+.pull-right {
+  font-weight: bold;
+  float: right;
+}
+table {
+  border-collapse: separate;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 100%;
+}
+.table td {
+  width: 25%;
+}
+.td-img {
+  padding: 5px;
+  border: 3px solid #bcbcbc;
+  max-width: 10%;
+}
+td img {
+  max-width: 100%;
+  height: auto;
+}
+.td-title {
+  border: 3px solid #bcbcbc;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.modal-txt {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+input[type="file"] {
+  width: 80%;
+  margin: 5px;
+  border: 1px solid #838383;
+}
+button {
+  border: 1px solid black;
+  background: #c6c6c6;
+}
+footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .2);
+}
